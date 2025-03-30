@@ -13,5 +13,9 @@ const soma = (a, b) => {
 console.log(soma(2, 3));
 
 //retorno implícito
-const subtracao = (a, b) => a - b
-console.log(subtracao(6, 3))
+const subtracao = (a, b) => a - b;
+console.log(subtracao(6, 3));
+
+//retorno implícito de um único parâmetro
+const imprimir2 = a => console.log(a);
+imprimir2('Legal!!!');
